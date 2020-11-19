@@ -11,3 +11,6 @@ color:rgba(0,0,0,0.8);
 .list{
     list-style: none;
 }
+.site-nav a{
+    color: rgb(33, 150, 243);
+ }
