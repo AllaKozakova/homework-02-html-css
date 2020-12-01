@@ -5,6 +5,8 @@
     --primary-white-color:#ffffff;
 }
 body{
+    font-family: Roboto;
+   font-size: normal;
     position: relative;
     width: 1600px;
     height: 2349px;
@@ -54,11 +56,12 @@ color: var(--title-text-color);
      background-color: var(--primary-white-color);
 
  }
- .button.primary: :hover{
-    color: var(--accent-color);
- }
+ .button .primary:hover,
+ .button .primary:focus{
+     color: var(--accent-color);
+     background-color: var( --accent-color);
      
-
+}
 .button.secondary{
     color: var(--accent-color);
     background-color: var(--primary-white-color);
