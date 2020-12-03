@@ -66,3 +66,6 @@ color: var(--title-text-color);
     color: var(--accent-color);
     background-color: var(--primary-white-color);
 }
+a{
+    text-decoration: none;
+}
